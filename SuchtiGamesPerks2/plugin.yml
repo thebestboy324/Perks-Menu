@@ -1,0 +1,49 @@
+---
+name: SuchtiGamesPerks2
+author: thebestboy324
+version: 3.2.0
+description: Perksystem
+main: SuchtiGamesPerks2\Main
+api: [3.0.0,4.0.0]
+commands:
+  perks:
+    description: "perks aktivieren/deaktivieren"
+    usage: /perks [args]...
+    permission: perks.command
+
+permissions:
+  perks:
+    description: Allow using all Perks commands
+    default: op
+    children:
+      perks.command:
+        description: Allow using /perks
+        default: op
+      perks.version:
+        description: Allow using command /slapper create
+        default: op
+      perks.help:
+        description: Allow viewing Perks help page
+        default: op
+      perks.break:
+        description: Allow using Perks break
+        default: op
+      perks.jump:
+        description: Allow using Perks jump
+        default: op
+      perks.atmung:
+        description: Allow using Perks atmung
+        default: op
+      perks.fire:
+        description: Allow using Perks fire
+        default: op
+      perks.damage:
+        description: Allow using Perks damage
+        default: op
+      perks.night:
+        description: Allow using Perks night
+        default: op
+      perks.clear:
+        description: Allow using Perks clear
+        default: op
+...
